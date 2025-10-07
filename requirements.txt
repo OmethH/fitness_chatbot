@@ -1,0 +1,18 @@
+Run this in your project terminal:
+pip freeze > requirements.txt
+
+Navigate into the project:
+cd fitness_chatbot
+
+Create a virtual environment:
+python -m venv venv
+venv\Scripts\activate
+
+Install dependencies:
+pip install -r requirements.txt
+
+Train the model:
+python train_model.py
+
+Run the chatbot API:
+python app.py
